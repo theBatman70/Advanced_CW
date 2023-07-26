@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(to right, hsl(0, 0%, 100%) 15%, #cfca5d 126%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+*{
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body .reg_container{
+    max-width: 800px;
+    min-height: 700px;
+    margin-right: 250px;
+    margin-left: 250px;
+    box-shadow: 20px 20px 50px #4b4f4d;
+    background-color: white;
+}
+
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(8, 0, 0);
+    margin-bottom: 20px;
+}
+form{
+    text-align: center;
+}
+
+body .reg_container .formdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:35px 25px;
+}
+
+body .reg_container .inputidv1{
+    width: 190px;
+    height: 200px;
+    margin-left: 280px;
+    border: 2px dotted black;
+    background-color: rgb(255, 255, 255);
+    box-shadow:20px 20px 30px #d6dcd9;
+    text-align: center;
+}
+
+body .reg_container .inputidv1 i{
+    margin-top: 40%;
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+body .reg_container form.formdiv .inputidv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 20px;   
+}
+ 
+body .reg_container form .formdiv .inputidv label{
+    width:95% ;
+    color: #010a05;
+    font-weight: bold;
+}
+
+body .reg_container form .formdiv .inputidv input{
+    height: 40px;
+    border-radius: 5px;
+}
+
+body .reg_container form .formdiv .inputidv input:is(:focus, :valid){
+    background-color: #b3b9b6;
+}
+
+.btn{
+    margin-top: 25px;
+}
+.btn button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+   
+}
+
+.btn button:hover{
+    width: 130px;
+    height: 45px;
+    background-color: #cfca5d;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
